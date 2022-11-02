@@ -9,7 +9,7 @@ function listFruits() {
         	if(fruits.length) {
         		const fruitArr = []
         	 	$.each(fruits, (i, fruit) => {        	 		
-                	fruitArr.unshift(
+                	fruitArr.push(
                       `<li>                          
                           \${fruit.fruitName},
                           \${fruit.price}                          
